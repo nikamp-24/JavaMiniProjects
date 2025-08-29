@@ -1,9 +1,23 @@
-### IntelliJ IDEA ###
+# Common ignores
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Eclipse / IntelliJ / Build Tools
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+.idea
+*.iws
+*.iml
+*.ipr
 
-### Eclipse ###
+# Spring Tool Suite
 .apt_generated
 .classpath
 .factorypath
@@ -11,19 +25,23 @@ out/
 .settings
 .springBeans
 .sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
-### NetBeans ###
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-### VS Code ###
+# VS Code
 .vscode/
 
-### Mac OS ###
+# Mac OS
 .DS_Store
+
+# Todo app specific ignores
+node_modules/
+.env
